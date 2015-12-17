@@ -1,5 +1,5 @@
-local NUM_MSG_MAX = 4 -- Max number of messages per TIME_CHECK seconds
-local TIME_CHECK = 2
+local NUM_MSG_MAX = 3 -- Max number of messages per TIME_CHECK seconds
+local TIME_CHECK = 1
 
 local function kick_user(user_id, chat_id)
   local chat = 'chat#id'..chat_id
