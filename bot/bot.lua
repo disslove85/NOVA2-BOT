@@ -207,7 +207,6 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "banhammer",
       "echo",
       "get",
       "google",
@@ -228,7 +227,7 @@ function create_config( )
       "youtube",
       "media_handler",
       "moderation"},
-    sudo_users = { V_for_Vendetta , 174592839 },
+    sudo_users = {174592839},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
   }
